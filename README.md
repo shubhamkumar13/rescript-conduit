@@ -37,7 +37,7 @@ $ yarn rescript:build
 3. Now, run the ReScript compiler with watch mode enabled:
 
 ```$
-$ yarn rescript:watch
+$ yarn rescript:start
 ```
 
 4. Run the Vite development server:
@@ -57,7 +57,7 @@ $ docker-compose up -d
 
 | Script            | Description                                                                    |
 | ----------------- | ------------------------------------------------------------------------------ |
-| `rescript:watch`  | Run the compiler with the watch mode enabled                                   |
+| `rescript:start`  | Run the compiler with the watch mode enabled                                   |
 | `rescript:build`  | Run the compiler with the build mode enabled                                   |
 | `rescript:clean`  | Run the compiler with the clean mode enabled                                   |
 | `vite:dev`        | Run the ViteJS development server                                              |
